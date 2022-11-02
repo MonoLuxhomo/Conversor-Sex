@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Graus</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Graus</h1>
+        <p>By Manuella Zorn Vianna</p>
+    </header>
+
+    <div class="bloco">
+        <input type="number" id="graus">
+        <select id="medida">
+            <option selected disabled value="null">Escolha uma opção</option>
+            <option value="°C">°C(Celsius)</option>
+            <option value="°F">°F(Farenheit)</option>
+            <option value="K">K(Kelvin)</option>
+            <option value="R">R(Rankine)</option>
+        </select>
+        <button id="button">Converter</button>
+    </div>
+
+    <div class="bloco-result">
+        <table id="table">
+            <thead>
+                <tr>
+                <th>°C</th>
+                <th>°F</th>
+                <th>K</th>
+                <th>R</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="./script.js"></script>
+    
+</body>
+</html>
